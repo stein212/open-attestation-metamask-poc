@@ -1,0 +1,21 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "issuers": [
+      {
+        "identityProof": {
+          "type": "9fdf2563-4f95-4420-acdc-3a8f60caacfd:string:DNS-TXT",
+          "location": "dafe10e2-2911-46fb-acb5-42ecc5c8f4c3:string:grand-plum-pheasant.sandbox.openattestation.com"
+        },
+        "documentStore": "e141a794-7531-4100-9291-c812239e5a6f:string:0xC6d7154Ef278027870AE5b4e4039cBc249162d0f",
+        "name": "e3ee50eb-3178-48be-a961-cdae18b3ea81:string:test"
+      }
+    ]
+  },
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "e0d4fbd94b4a4afe7613ced6b08466562eefa46dfee9dd52a0744de03f725ef0",
+    "proof": [],
+    "merkleRoot": "e0d4fbd94b4a4afe7613ced6b08466562eefa46dfee9dd52a0744de03f725ef0"
+  }
+}
